@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE0A3D819D4A9CB00BC6CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3D719D4A9CB00BC6CE6 /* Foundation.framework */; };
+		DEE0A3DA19D4A9CB00BC6CE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3D919D4A9CB00BC6CE6 /* CoreGraphics.framework */; };
+		DEE0A3DC19D4A9CB00BC6CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3DB19D4A9CB00BC6CE6 /* UIKit.framework */; };
+		DEE0A3E219D4A9CB00BC6CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEE0A3E019D4A9CB00BC6CE6 /* InfoPlist.strings */; };
+		DEE0A3E419D4A9CB00BC6CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A3E319D4A9CB00BC6CE6 /* main.m */; };
+		DEE0A3E819D4A9CB00BC6CE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A3E719D4A9CB00BC6CE6 /* AppDelegate.m */; };
+		DEE0A3EA19D4A9CB00BC6CE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE0A3E919D4A9CB00BC6CE6 /* Images.xcassets */; };
+		DEE0A3F119D4A9CB00BC6CE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3F019D4A9CB00BC6CE6 /* XCTest.framework */; };
+		DEE0A3F219D4A9CB00BC6CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3D719D4A9CB00BC6CE6 /* Foundation.framework */; };
+		DEE0A3F319D4A9CB00BC6CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0A3DB19D4A9CB00BC6CE6 /* UIKit.framework */; };
+		DEE0A3FB19D4A9CB00BC6CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEE0A3F919D4A9CB00BC6CE6 /* InfoPlist.strings */; };
+		DEE0A3FD19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A3FC19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.m */; };
+		DEE0A40819D4AA2500BC6CE6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A40719D4AA2500BC6CE6 /* FirstViewController.m */; };
+		DEE0A40B19D4AA3100BC6CE6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A40A19D4AA3100BC6CE6 /* SecondViewController.m */; };
+		DEE0A41A19D4B86C00BC6CE6 /* UIRecordingBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A41919D4B86C00BC6CE6 /* UIRecordingBarViewController.m */; };
+		DEE0A41D19D4B89300BC6CE6 /* UIRecordingBarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A41C19D4B89300BC6CE6 /* UIRecordingBarWindow.m */; };
+		DEE0A42019D4B8C000BC6CE6 /* UIRecordingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE0A41F19D4B8C000BC6CE6 /* UIRecordingBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE0A3F419D4A9CB00BC6CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE0A3CC19D4A9CB00BC6CE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE0A3D319D4A9CB00BC6CE6;
+			remoteInfo = CustomStatusBarColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE0A3D419D4A9CB00BC6CE6 /* CustomStatusBarColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomStatusBarColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE0A3D719D4A9CB00BC6CE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEE0A3D919D4A9CB00BC6CE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEE0A3DB19D4A9CB00BC6CE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEE0A3DF19D4A9CB00BC6CE6 /* CustomStatusBarColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomStatusBarColor-Info.plist"; sourceTree = "<group>"; };
+		DEE0A3E119D4A9CB00BC6CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEE0A3E319D4A9CB00BC6CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE0A3E519D4A9CB00BC6CE6 /* CustomStatusBarColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomStatusBarColor-Prefix.pch"; sourceTree = "<group>"; };
+		DEE0A3E619D4A9CB00BC6CE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEE0A3E719D4A9CB00BC6CE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEE0A3E919D4A9CB00BC6CE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEE0A3EF19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomStatusBarColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE0A3F019D4A9CB00BC6CE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DEE0A3F819D4A9CB00BC6CE6 /* CustomStatusBarColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomStatusBarColorTests-Info.plist"; sourceTree = "<group>"; };
+		DEE0A3FA19D4A9CB00BC6CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEE0A3FC19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomStatusBarColorTests.m; sourceTree = "<group>"; };
+		DEE0A40619D4AA2500BC6CE6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DEE0A40719D4AA2500BC6CE6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DEE0A40919D4AA3100BC6CE6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DEE0A40A19D4AA3100BC6CE6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DEE0A41819D4B86C00BC6CE6 /* UIRecordingBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecordingBarViewController.h; sourceTree = "<group>"; };
+		DEE0A41919D4B86C00BC6CE6 /* UIRecordingBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecordingBarViewController.m; sourceTree = "<group>"; };
+		DEE0A41B19D4B89300BC6CE6 /* UIRecordingBarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecordingBarWindow.h; sourceTree = "<group>"; };
+		DEE0A41C19D4B89300BC6CE6 /* UIRecordingBarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecordingBarWindow.m; sourceTree = "<group>"; };
+		DEE0A41E19D4B8C000BC6CE6 /* UIRecordingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecordingBar.h; sourceTree = "<group>"; };
+		DEE0A41F19D4B8C000BC6CE6 /* UIRecordingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecordingBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE0A3D119D4A9CB00BC6CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3DA19D4A9CB00BC6CE6 /* CoreGraphics.framework in Frameworks */,
+				DEE0A3DC19D4A9CB00BC6CE6 /* UIKit.framework in Frameworks */,
+				DEE0A3D819D4A9CB00BC6CE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE0A3EC19D4A9CB00BC6CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3F119D4A9CB00BC6CE6 /* XCTest.framework in Frameworks */,
+				DEE0A3F319D4A9CB00BC6CE6 /* UIKit.framework in Frameworks */,
+				DEE0A3F219D4A9CB00BC6CE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE0A3CB19D4A9CB00BC6CE6 = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3DD19D4A9CB00BC6CE6 /* CustomStatusBarColor */,
+				DEE0A3F619D4A9CB00BC6CE6 /* CustomStatusBarColorTests */,
+				DEE0A3D619D4A9CB00BC6CE6 /* Frameworks */,
+				DEE0A3D519D4A9CB00BC6CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE0A3D519D4A9CB00BC6CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3D419D4A9CB00BC6CE6 /* CustomStatusBarColor.app */,
+				DEE0A3EF19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE0A3D619D4A9CB00BC6CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3D719D4A9CB00BC6CE6 /* Foundation.framework */,
+				DEE0A3D919D4A9CB00BC6CE6 /* CoreGraphics.framework */,
+				DEE0A3DB19D4A9CB00BC6CE6 /* UIKit.framework */,
+				DEE0A3F019D4A9CB00BC6CE6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE0A3DD19D4A9CB00BC6CE6 /* CustomStatusBarColor */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3E619D4A9CB00BC6CE6 /* AppDelegate.h */,
+				DEE0A3E719D4A9CB00BC6CE6 /* AppDelegate.m */,
+				DEE0A3E919D4A9CB00BC6CE6 /* Images.xcassets */,
+				DEE0A3DE19D4A9CB00BC6CE6 /* Supporting Files */,
+				DEE0A40619D4AA2500BC6CE6 /* FirstViewController.h */,
+				DEE0A40719D4AA2500BC6CE6 /* FirstViewController.m */,
+				DEE0A40919D4AA3100BC6CE6 /* SecondViewController.h */,
+				DEE0A40A19D4AA3100BC6CE6 /* SecondViewController.m */,
+				DEE0A41819D4B86C00BC6CE6 /* UIRecordingBarViewController.h */,
+				DEE0A41919D4B86C00BC6CE6 /* UIRecordingBarViewController.m */,
+				DEE0A41B19D4B89300BC6CE6 /* UIRecordingBarWindow.h */,
+				DEE0A41C19D4B89300BC6CE6 /* UIRecordingBarWindow.m */,
+				DEE0A41E19D4B8C000BC6CE6 /* UIRecordingBar.h */,
+				DEE0A41F19D4B8C000BC6CE6 /* UIRecordingBar.m */,
+			);
+			path = CustomStatusBarColor;
+			sourceTree = "<group>";
+		};
+		DEE0A3DE19D4A9CB00BC6CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3DF19D4A9CB00BC6CE6 /* CustomStatusBarColor-Info.plist */,
+				DEE0A3E019D4A9CB00BC6CE6 /* InfoPlist.strings */,
+				DEE0A3E319D4A9CB00BC6CE6 /* main.m */,
+				DEE0A3E519D4A9CB00BC6CE6 /* CustomStatusBarColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE0A3F619D4A9CB00BC6CE6 /* CustomStatusBarColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3FC19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.m */,
+				DEE0A3F719D4A9CB00BC6CE6 /* Supporting Files */,
+			);
+			path = CustomStatusBarColorTests;
+			sourceTree = "<group>";
+		};
+		DEE0A3F719D4A9CB00BC6CE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0A3F819D4A9CB00BC6CE6 /* CustomStatusBarColorTests-Info.plist */,
+				DEE0A3F919D4A9CB00BC6CE6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE0A3D319D4A9CB00BC6CE6 /* CustomStatusBarColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE0A40019D4A9CC00BC6CE6 /* Build configuration list for PBXNativeTarget "CustomStatusBarColor" */;
+			buildPhases = (
+				DEE0A3D019D4A9CB00BC6CE6 /* Sources */,
+				DEE0A3D119D4A9CB00BC6CE6 /* Frameworks */,
+				DEE0A3D219D4A9CB00BC6CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomStatusBarColor;
+			productName = CustomStatusBarColor;
+			productReference = DEE0A3D419D4A9CB00BC6CE6 /* CustomStatusBarColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE0A3EE19D4A9CB00BC6CE6 /* CustomStatusBarColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE0A40319D4A9CC00BC6CE6 /* Build configuration list for PBXNativeTarget "CustomStatusBarColorTests" */;
+			buildPhases = (
+				DEE0A3EB19D4A9CB00BC6CE6 /* Sources */,
+				DEE0A3EC19D4A9CB00BC6CE6 /* Frameworks */,
+				DEE0A3ED19D4A9CB00BC6CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE0A3F519D4A9CB00BC6CE6 /* PBXTargetDependency */,
+			);
+			name = CustomStatusBarColorTests;
+			productName = CustomStatusBarColorTests;
+			productReference = DEE0A3EF19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE0A3CC19D4A9CB00BC6CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Leviatan Games";
+				TargetAttributes = {
+					DEE0A3EE19D4A9CB00BC6CE6 = {
+						TestTargetID = DEE0A3D319D4A9CB00BC6CE6;
+					};
+				};
+			};
+			buildConfigurationList = DEE0A3CF19D4A9CB00BC6CE6 /* Build configuration list for PBXProject "CustomStatusBarColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEE0A3CB19D4A9CB00BC6CE6;
+			productRefGroup = DEE0A3D519D4A9CB00BC6CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE0A3D319D4A9CB00BC6CE6 /* CustomStatusBarColor */,
+				DEE0A3EE19D4A9CB00BC6CE6 /* CustomStatusBarColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE0A3D219D4A9CB00BC6CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3E219D4A9CB00BC6CE6 /* InfoPlist.strings in Resources */,
+				DEE0A3EA19D4A9CB00BC6CE6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE0A3ED19D4A9CB00BC6CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3FB19D4A9CB00BC6CE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE0A3D019D4A9CB00BC6CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3E819D4A9CB00BC6CE6 /* AppDelegate.m in Sources */,
+				DEE0A40819D4AA2500BC6CE6 /* FirstViewController.m in Sources */,
+				DEE0A40B19D4AA3100BC6CE6 /* SecondViewController.m in Sources */,
+				DEE0A41A19D4B86C00BC6CE6 /* UIRecordingBarViewController.m in Sources */,
+				DEE0A41D19D4B89300BC6CE6 /* UIRecordingBarWindow.m in Sources */,
+				DEE0A42019D4B8C000BC6CE6 /* UIRecordingBar.m in Sources */,
+				DEE0A3E419D4A9CB00BC6CE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE0A3EB19D4A9CB00BC6CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE0A3FD19D4A9CB00BC6CE6 /* CustomStatusBarColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE0A3F519D4A9CB00BC6CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE0A3D319D4A9CB00BC6CE6 /* CustomStatusBarColor */;
+			targetProxy = DEE0A3F419D4A9CB00BC6CE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE0A3E019D4A9CB00BC6CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE0A3E119D4A9CB00BC6CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEE0A3F919D4A9CB00BC6CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE0A3FA19D4A9CB00BC6CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE0A3FE19D4A9CC00BC6CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEE0A3FF19D4A9CC00BC6CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE0A40119D4A9CC00BC6CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomStatusBarColor/CustomStatusBarColor-Prefix.pch";
+				INFOPLIST_FILE = "CustomStatusBarColor/CustomStatusBarColor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEE0A40219D4A9CC00BC6CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomStatusBarColor/CustomStatusBarColor-Prefix.pch";
+				INFOPLIST_FILE = "CustomStatusBarColor/CustomStatusBarColor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEE0A40419D4A9CC00BC6CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomStatusBarColor.app/CustomStatusBarColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomStatusBarColor/CustomStatusBarColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomStatusBarColorTests/CustomStatusBarColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DEE0A40519D4A9CC00BC6CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomStatusBarColor.app/CustomStatusBarColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomStatusBarColor/CustomStatusBarColor-Prefix.pch";
+				INFOPLIST_FILE = "CustomStatusBarColorTests/CustomStatusBarColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE0A3CF19D4A9CB00BC6CE6 /* Build configuration list for PBXProject "CustomStatusBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0A3FE19D4A9CC00BC6CE6 /* Debug */,
+				DEE0A3FF19D4A9CC00BC6CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE0A40019D4A9CC00BC6CE6 /* Build configuration list for PBXNativeTarget "CustomStatusBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0A40119D4A9CC00BC6CE6 /* Debug */,
+				DEE0A40219D4A9CC00BC6CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE0A40319D4A9CC00BC6CE6 /* Build configuration list for PBXNativeTarget "CustomStatusBarColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0A40419D4A9CC00BC6CE6 /* Debug */,
+				DEE0A40519D4A9CC00BC6CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE0A3CC19D4A9CB00BC6CE6 /* Project object */;
+}
